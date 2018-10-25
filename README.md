@@ -10,7 +10,7 @@
 <h4 align="center">This is the official PHP SDK for MercadoLibre's Platform.</h4>
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/mercadolibre/php-sdk">
+  <a href="https://heroku.com/deploy?template=https://github.com/clickboxchile/php-sdk">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
   </a>
 </p>
