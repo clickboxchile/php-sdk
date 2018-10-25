@@ -28,14 +28,14 @@ if($_GET['code']) {
 	// We construct the item to POST
 	$item = array(
 		"title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
-        "category_id" => "MLB257111",
-        "price" => 10,
-        "currency_id" => "BRL",
+        "category_id" => "MLC257111",
+        "price" => 1000,
+        "currency_id" => "CLP",
         "available_quantity" => 1,
         "buying_mode" => "buy_it_now",
         "listing_type_id" => "bronze",
         "condition" => "new",
-        "description" => "Item de Teste. Mercado Livre's PHP SDK.",
+        "description" => "Item de prueba Mercadolibre PHP",
         "video_id" => "Q6dsRpVyyWs",
         "warranty" => "12 month",
         "pictures" => array(
@@ -109,6 +109,6 @@ if($_GET['code']) {
 
 } else {
 
-	echo '<a href="' . $meli->getAuthUrl($redirectURI, Meli::$AUTH_URL['MLB']) . '">Login using MercadoLibre oAuth 2.0</a>';
+	echo '<a href="' . $meli->getAuthUrl($redirectURI, Meli::$AUTH_URL['MLC']) . '">Login using MercadoLibre oAuth 2.0</a>';
 }
 
